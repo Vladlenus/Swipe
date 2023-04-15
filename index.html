@@ -4,18 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Swipe</title>
     <style>
+        body{overflow-x: hidden;}
+        .rr {
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        /* position: fixed; */
+        /* left: -90% */
+        z-index: 0;
+        }
         .ss {
         -moz-user-select: none;
         -khtml-user-select: none;
         -webkit-user-select: none;
         user-select: none;
+        overflow: hidden;
+        background-color: gray;
+        z-index: 2000;
+        }
+        .tab{
+            position: fixed;
+            z-index: -1;
         }
     </style>
 </head>
 <body>
-    <div class="ss" >TEXT _________________________________ TEXT<p></p><table>1</table><table>2</table><table>3</table>
+    <div class="rr" >MAIN _________________________________ MAIN
+       </div>
+       <p></p>
+       <p></p>
+       <table class="tab">
+        <tr>
+            <td>TEXT2</td>  
+            <td></td>     
+        </tr>
+        <tr>
+            <td>1</td>  
+            <td></td>  
+        </tr>
+        <tr>
+            <td>2</td>  
+            <td> </td>  
+        </tr>
+          
+        </tr>
+    </table><p> </p>
+    <div class="ss" >TEXT1________________________________ 
+    <table>
+        <tr>
+            <td>1</td>  
+            <td></td>     
+        </tr>
+        <tr>
+            <td>2</td>  
+            <td> </td>     
+        </tr>
+        <tr>
+            <td>3</td>  
+            <td> </td>    
+        </tr>
+        <tr>
+            <td>4</td>  
+            <td> </td>    
+        </tr>
+        <tr>
+            <td>5</td>  
+            <td>____________________________________ </td>  
+    </table>
+    
+    
     </div>
     <script src="index.js"></script>
     <script src="index2.js"></script>

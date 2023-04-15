@@ -1,6 +1,5 @@
 // let touchstartX = 0
 // let touchendX = 0
-    
 function checkDirection2() {
     if(touchendX1 - touchstartX1<50 && touchendX1 - touchstartX1>0){return}
   if (touchendX1 < touchstartX1 ) {console.log('right')

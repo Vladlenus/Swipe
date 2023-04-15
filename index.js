@@ -25,17 +25,17 @@ return
 }  
 function move(){
     dis=document.querySelector('.ss')
-  
+    // dis.style.overflow = "hidden"
     dis.style.position="relative"
-    dis.style.left= "0% "
-    // dis.style.backgroundColor = "red"
+    dis.style.left= "-100% "
     console.log('move')
 }
 function move2(){
     dis=document.querySelector('.ss')
     dis.style.position="relative"
-    dis.style.left= "90% "
-    // dis.style.backgroundColor = "gray"
+    // dis.style.overflow = "hidden"
+
+    dis.style.left= "0% "
     
     console.log('move2')
 
